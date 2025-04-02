@@ -1,0 +1,59 @@
+/* h1 {
+    color: rgb(234, 0, 255);
+} */
+ /* selectores BASICOS */
+ /*  SELECTOR PO NOMBRE DE LA ETIQUETA  */
+ /* span{
+    text-align: center; 
+    front size: 50px;
+    display: block;
+ } */
+  /*  Selectores de identificadires */
+  /*  id (#) - clase (.)  */
+  /* #span_2 {
+    color: rgb(77, 2, 87);
+  }
+  .color-morado{
+    background-color: blueviolet;
+  }
+  .letra-cursiva{
+    font-style: italic ;
+    font-weight: bold; 
+
+  } */
+   /* Selectores por jerraquia */
+   /* div > p{
+    color: blueviolet;
+    font-size: 25px;
+   }
+   div > span > p {
+    background-color: blueviolet;
+   } */
+/* selctor hijo indirecto () */
+/* div p {
+    color: rgb(226, 43, 189);
+    font-size: 25px;
+} */
+ /*  Selector abyacente */
+ /* selector primo hemano (+) */
+ /* div + p + p {
+    color: rgb(255, 0, 247);
+    font-size: 25px; */
+ /* }
+ /* selector todos los hermanos (~) */
+ /* div ~ p {
+    color: rgb(239, 191, 238);
+    font-size: 25px;
+ }  */ 
+ /* selector todo (*) */
+/* forma 1 selecciinar todo */
+/* * {
+background-color: blueviolet;
+} */
+ div *{
+    color: blueviolet;
+ }
+ /* forma 3 selecciinar etiquetas especificas */
+ * p{
+    color: rgb(214, 43, 226);
+ }
